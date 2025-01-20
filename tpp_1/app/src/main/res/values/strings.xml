@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">tpp1</string>
+
+    <!-- оформление -->
+    <string name="startNum">0</string>
+    <string name="result">0</string>
+
+    <!-- первый ряд кнопок -->
+    <string name="buttonC">AC</string>
+    <string name="buttonPlusMin">±</string>
+    <string name="buttonPercent">%</string>
+    <string name="butDivide">/</string>
+
+    <!-- первый ряд кнопок -->
+    <string name="buttonSqrt">√</string>
+    <string name="buttonSquare">x²</string>
+    <string name="buttonSin">sin</string>
+    <string name="butCos">cos</string>
+
+    <!-- второй ряд кнопок -->
+    <string name="but7">7</string>
+    <string name="but8">8</string>
+    <string name="but9">9</string>
+    <string name="butMultiply">*</string>
+
+    <!-- третий ряд кнопок -->
+    <string name="but4">4</string>
+    <string name="but5">5</string>
+    <string name="but6">6</string>
+    <string name="butMin">-</string>
+
+    <!-- четвертый ряд кнопок -->
+    <string name="but1">1</string>
+    <string name="but2">2</string>
+    <string name="but3">3</string>
+    <string name="butPlus">+</string>
+
+    <!-- последний ряд кнопок -->
+    <string name="button0">0</string>
+    <string name="buttonDot">.</string>
+    <string name="buttonEqually">=</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Mini Shop</string>
+    <string name="my_goods_list">My Goods List</string>
+    <string name="count_of_goods">Count of goods: %1$d</string>
+    <string name="show_checked_items">Show Checked Items</string>
+    <string name="cart_title">В корзине товаров:</string>
+    <string name="item_id">ID</string>
+    <string name="item_name">Name</string>
+    <string name="item_price">Price</string>
+</resources>

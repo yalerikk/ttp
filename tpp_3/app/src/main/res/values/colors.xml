@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#A5D6A7</color>
+    <color name="colorSecondary">#E1BEE7</color>
+    <color name="dividerColor">#B6B6B6</color>
+    <color name="footerBackground">#A2CD5A</color>
+    <color name="footerTextColor">#000000</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">tpp2</string>
+
+    <!-- оформление приложения-->
+    <string name="realAppName1">Твое</string>
+    <string name="realAppName2">Такси</string>
+
+    <!-- оформление 1 Activity-->
+    <string name="telephone">Телефон</string>
+    <string name="telephoneNumber">+375</string>
+    <string name="name">Галина</string>
+    <string name="surname">Петровна</string>
+    <string name="butReg">Регистрация</string>
+    <string name="butLogIn">Войти</string>
+    <string name="taxi_checkers_description">Шашечки такси</string>
+
+    <!-- оформление 2 Activity-->
+    <string name="butSetPath">Куда едем?</string>
+    <string name="butCallTaxi">Вызвать такси</string>
+
+    <!-- оформление 3 Activity-->
+    <string name="pointFrom">Текущий адрес:</string>
+    <string name="pointTo">Куда поедете:</string>
+    <string name="street">Улица</string>
+    <string name="house">Дом</string>
+    <string name="flat">Квартира</string>
+    <string name="butOk">Заказать</string>
+
+    <!-- Ошибки лол-->
+    <string name="errorTel">Недопустимый формат номера</string>
+    <string name="errorNameOrSurname">Недопустимый формат имени/фамилии</string>
+    <string name="errorAdress">Недопустимый формат адреса</string>
+</resources>

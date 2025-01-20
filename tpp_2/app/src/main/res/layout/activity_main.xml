@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <!-- Лого -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="10pt">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="1pt"
+            android:layout_marginStart="40pt"
+            android:layout_marginEnd="2pt"
+            android:layout_weight="2"
+            android:background="@color/white"
+            android:gravity="end|center"
+            android:text="@string/realAppName1"
+            android:textColor="@color/black"
+            android:textSize="27sp" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:text="@string/realAppName2"
+            android:textSize="28sp"
+            android:background="@drawable/rectangle_background"
+            android:textColor="@color/yellow"
+            android:layout_marginVertical="1pt"
+            android:layout_marginStart="2pt"
+            android:layout_marginEnd="40pt"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <!-- Инфа юзера -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="110dp"
+        android:gravity="end|center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/telephone"
+            android:text="@string/telephoneNumber"
+            android:layout_weight="2"
+            android:layout_marginVertical="3pt"
+            android:gravity="start|center"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLength="19"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/name"
+            android:layout_weight="2"
+            android:gravity="start|center"
+            android:inputType="text"
+            android:textSize="10pt"/>
+
+        <EditText
+            android:id="@+id/editTextSurname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="@string/surname"
+            android:layout_weight="2"
+            android:layout_marginVertical="3pt"
+            android:gravity="start|center"
+            android:inputType="text"
+            android:textSize="10pt" />
+
+        <!-- Ошибка лол -->
+        <TextView
+            android:id="@+id/textError"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:textColor="@color/error_red"
+            android:gravity="start|center"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!-- Кнопка регистрации -->
+
+    <!-- Шашечки внизу страницы -->
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="30pt"
+        android:layout_marginTop="90dp"
+        android:layout_weight="3"
+        android:width="60pt"
+        android:height="30pt"
+        android:backgroundTint="@color/yellow"
+        android:text="@string/butReg"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="3dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="5"
+        android:contentDescription="@string/taxi_checkers_description"
+        android:src="@drawable/taxi_checkers" />
+
+</LinearLayout>
